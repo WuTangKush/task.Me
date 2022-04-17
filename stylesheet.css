@@ -3,17 +3,38 @@ body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: whitesmoke;
 }
+.heading-one{
+    margin: 0px 0px;
+}
 .navbar{
     width: 320px;
     padding: 10px;
     border: 5px;
-    display:inline;
+    display: inline;
 }
-#search{
+.search-input{
    border-radius: 10px; 
+   border-style: solid;
+   border-width: 1px 4px;
+   border-color: #79ADDC;
+   margin: 0px 200px ;
+   width: 200px;
+}
+#searchButton{
+    background-color: #79ADDC;
+}
+.create-new-btn{
+    background-color: #79ADDC;
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+}
+.create-btn-btn{
+    background-color: #79ADDC;
 }
 .menu{
     width: 200px;
+   
 }
 .menu a{
     color: whitesmoke;
